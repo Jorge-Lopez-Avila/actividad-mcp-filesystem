@@ -145,6 +145,12 @@ Petición: Lee el archivo C:\mcp-tarea\workspace\nota.txt
 
 ### Operación 3: Crear archivo
 
+Petición: Crea un archivo nuevo llamado saludo.md en C:\mcp-tarea\workspace con el contenido "# Hola desde MCP"
+
+![Crear archivo](capturas/03-crear.png)
+
+### Operación 4: Modificar archivo
+
 cat > /c/mcp-tarea/README.md << 'EOF'
 # Actividad MCP: Servidor de Sistema de Archivos
 
