@@ -1,0 +1,44 @@
+# Dependencias
+node_modules/
+__pycache__/
+*.pyc
+
+# Archivos de sistema
+
+
+cat > .gitignore << 'EOF'
+# Dependencias
+node_modules/
+__pycache__/
+*.pyc
+
+
+
+
+
+cat > .gitignore << 'EOF'
+# Dependencias
+node_modules/
+__pycache__/
+*.pyc
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credenciales y secretos
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+tokens.json
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Extensiones compiladas
+*.mcpb

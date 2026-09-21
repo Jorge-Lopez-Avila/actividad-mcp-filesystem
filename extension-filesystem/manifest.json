@@ -1,0 +1,20 @@
+{
+  "manifest_version": "0.2",
+  "name": "filesystem",
+  "display_name": "Sistema de Archivos",
+  "version": "1.0.0",
+  "description": "Servidor MCP de sistema de archivos limitado a un directorio de trabajo.",
+  "author": {
+    "name": "Jorge"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "server.js",
+    "mcp_config": {
+      "command": "C:\\Users\\Jorge\\AppData\\Roaming\\npm\\mcp-server-filesystem.cmd",
+      "args": [
+        "C:\\mcp-tarea\\workspace"
+      ]
+    }
+  }
+}
